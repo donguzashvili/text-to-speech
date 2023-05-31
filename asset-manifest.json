@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/text-to-speech/static/css/main.a034e3e5.css",
+    "main.js": "/text-to-speech/static/js/main.20b28d04.js",
+    "static/media/georgia.png": "/text-to-speech/static/media/georgia.b444e300003e1903f90a.png",
+    "static/media/chrome.png": "/text-to-speech/static/media/chrome.35b91975ed78fb4c3e47.png",
+    "static/media/owl.svg": "/text-to-speech/static/media/owl.3d7302ed88e249f10d2dd6b498b50af2.svg",
+    "static/media/settings.svg": "/text-to-speech/static/media/settings.382adcd069d54404d3ea99a7580cdc66.svg",
+    "static/media/GB.svg": "/text-to-speech/static/media/GB.a36337ecfe72219959c4a113e4ce2128.svg",
+    "static/media/link.svg": "/text-to-speech/static/media/link.d21f973f41c6fb398bc3e698108af4d3.svg",
+    "static/media/sun.svg": "/text-to-speech/static/media/sun.14c56da7ede4c8d26ce0a6d722c31c17.svg",
+    "static/media/camera.svg": "/text-to-speech/static/media/camera.2916e81e904bb2532646a17f640b17f3.svg",
+    "static/media/questionMark.svg": "/text-to-speech/static/media/questionMark.3140de2fefb2818d07e5247bcba1b87f.svg",
+    "static/media/moon.svg": "/text-to-speech/static/media/moon.9e2fd6120a402a10c4dd35c88c1ec163.svg",
+    "static/media/list.svg": "/text-to-speech/static/media/list.ea6bdaa83dcb41bfc16c1e56cc952697.svg",
+    "static/media/bold.svg": "/text-to-speech/static/media/bold.9471e840378f7e9d71e791846f28921a.svg",
+    "static/media/facebook.svg": "/text-to-speech/static/media/facebook.0d4c1164b5b8138b34bc11750f077f73.svg",
+    "index.html": "/text-to-speech/index.html",
+    "static/media/copy.svg": "/text-to-speech/static/media/copy.56ca53211dd3aa3b3dca60a6f56251a4.svg",
+    "static/media/VectorMenu.svg": "/text-to-speech/static/media/VectorMenu.cbdebefea5aa9f753df6958f68b73c28.svg",
+    "static/media/delete.svg": "/text-to-speech/static/media/delete.4a243805cbfec1d01ace503a7112c5ae.svg",
+    "static/media/underline.svg": "/text-to-speech/static/media/underline.95bc98c9753cd5450a15d6f0301f52c6.svg",
+    "static/media/h2.svg": "/text-to-speech/static/media/h2.57676b58f000efc8736883158c6d571c.svg",
+    "static/media/formatClear.svg": "/text-to-speech/static/media/formatClear.58af1dadd9ea474e65f6d608d674853c.svg",
+    "static/media/close.svg": "/text-to-speech/static/media/close.15c32be503744ead0a70734f3b19fc4c.svg",
+    "static/media/orderedList.svg": "/text-to-speech/static/media/orderedList.5fef090d43d0517d87e45c69769e5974.svg",
+    "static/media/topVector.svg": "/text-to-speech/static/media/topVector.55a1c3eaf18a91a488bd17fc4af228a6.svg",
+    "static/media/Vector.svg": "/text-to-speech/static/media/Vector.830d6b51a8d33762cbdfde5354980a85.svg",
+    "static/media/botDecor.svg": "/text-to-speech/static/media/botDecor.b032ea5312c777f369fc1d10b8d29abf.svg",
+    "static/media/music.svg": "/text-to-speech/static/media/music.4434cf1d63effd1a82a905d93d17578b.svg",
+    "static/media/h1.svg": "/text-to-speech/static/media/h1.297e3a65c30d27384af42e80c35f504c.svg",
+    "static/media/italic.svg": "/text-to-speech/static/media/italic.d3d57200c5e68b5128c8985dad01c93d.svg",
+    "main.a034e3e5.css.map": "/text-to-speech/static/css/main.a034e3e5.css.map",
+    "main.20b28d04.js.map": "/text-to-speech/static/js/main.20b28d04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a034e3e5.css",
+    "static/js/main.20b28d04.js"
+  ]
+}
