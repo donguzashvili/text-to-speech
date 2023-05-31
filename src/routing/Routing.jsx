@@ -5,7 +5,7 @@ import SpellChecker from "../view/spellcheckerContent/spellchecker";
 const Routing = () => {
   return (
     <Routes>
-      <Route path="/" element={<SpellChecker />} />
+      <Route path="*" element={<SpellChecker />} />
     </Routes>
   );
 };
