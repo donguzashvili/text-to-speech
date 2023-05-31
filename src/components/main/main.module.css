@@ -1,0 +1,14 @@
+.mainWrapper{
+    height: 100%;
+}
+
+.mainContent{
+    display: flex;
+    background-color: var(--f8Gray);
+}
+
+.mainComponentWrapper{
+    width: 1133px;
+    padding: 64px 0 72px;
+
+}

@@ -1,0 +1,62 @@
+.editorWrapper{
+    padding: 52px 0 0;
+}
+
+.editorField{
+    margin: 0 0 0 84px;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid var(--edGray);
+    width: 804px;
+}
+
+.editorField textarea{
+    height: 610px;
+    padding: 0 0 0 34px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    line-height: 20px;
+    font-size: 12px;
+    color: var(--fGray);
+    background-color: var(--f8Gray);
+    font-family: "Inter-medium", sans-serif;
+}
+
+.toolsWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 39px 0 0;
+}
+
+.tools{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 118px;
+}
+
+.tools svg{
+    margin: 0 13px;
+    cursor: pointer;
+    outline: none;
+}
+
+.divider{
+    height: 18px;
+    width: 1px;
+    background-color: var(--ccGray);
+}
+
+.wordCounter{
+    background-color: var(--white);
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wordCounter p {
+    margin: 0;
+    font-family: "Inter-medium", sans-serif;
+    font-size: 12px;
+}

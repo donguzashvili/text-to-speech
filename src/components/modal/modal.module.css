@@ -1,0 +1,43 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modalWrapper{
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 5px;
+    max-height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--e3Gray);
+    padding: 0 0 10px;
+}
+
+.header h3{
+    margin: 0;
+}
+
+.header svg{
+    cursor: pointer;
+}
+
+.audioWrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px 0;
+    padding: 10px 0;
+}

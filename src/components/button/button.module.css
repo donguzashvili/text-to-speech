@@ -1,0 +1,35 @@
+.btn{
+    background-color: rgb(var(--blue));
+    color: var(--white);
+    height: 36px;
+    border: none;
+    padding: 4px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn p{
+    font-weight: 600;
+    font-family: "Inter-medium", sans-serif;
+
+}
+
+.btn svg{
+    width: 17px;
+    height: 12px;
+    margin-right: 7px;
+}
+
+.btn svg path{
+    fill: var(--white);
+}
+
+.btn:hover{
+    background-color: rgba(var(--blue), 0.9);
+}

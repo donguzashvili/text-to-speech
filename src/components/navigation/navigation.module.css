@@ -1,0 +1,145 @@
+    
+.navWrapper{
+    width: 177px;
+}
+
+.navigation{
+    height: 100%;
+    width: 68px;
+    background-color: rgb(var(--blue));
+    padding: 0 0 0 12px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.navigation:hover{
+    width: 177px;
+}
+
+.routingBtns{
+    padding: 124px 0 380px 0;
+}
+
+.routingBtns a{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+    width: 100%;
+    height: 38px;
+    color: var(--white);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.routingBtns a p{
+    display: none;
+    white-space: nowrap;
+    font-family: "Inter-medium", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.navigation:hover .routingBtns a p{
+    display: block;
+}
+
+.settingsWrapper a p{
+    display: none;
+    white-space: nowrap;
+    font-family: "Inter-medium", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.navigation:hover .settingsWrapper a p{
+    display: block;
+}
+
+.settingsWrapper{
+    padding: 41px 0;
+    margin: 0 12px 0 0;
+    border-top: 2px solid var(--lightBlue);
+    border-bottom: 2px solid var(--lightBlue);
+}
+
+.settingsWrapper a{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+    height: 38px;
+    width: 100%;
+    color: var(--white);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.settingsWrapper a svg{
+    margin: 0 12px 0 16px;
+    flex-shrink: 0;
+}
+
+
+.routingBtns a svg{
+    margin: 0 12px 0 16px;
+    width: 20px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+.routingBtns a svg path{
+    fill: var(--white);
+}
+
+
+.routingBtns .active{
+    background-color: var(--white);
+    position: relative;
+}
+
+.routingBtns .active{
+    color: rgb(var(--blue))
+}
+
+.routingBtns .active svg path{
+    fill: rgb(var(--blue))
+}
+
+.routingBtns .active .decors{
+    position: absolute;
+    right: -13px;
+}
+
+.routingBtns .active .decors:first-child{
+    top: -13px;
+}
+.routingBtns .active .decors:last-child{
+    bottom: -13px;
+}
+
+.routingBtns .active .decors path{
+    fill: var(--white)
+}
+
+.colorMode{
+    display: flex;
+    justify-content: center;
+    margin: 54px 12px 57px 0;
+}
+
+.colorMode div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.7px solid var(--lightBlue);
+    border-radius: 15px;
+    padding: 3px;
+    width: 52px;
+}
+
+.colorMode div svg:first-child{
+    margin-right: 13px;
+}

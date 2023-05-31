@@ -1,0 +1,83 @@
+.selectWrapper{
+    height: 36px;
+    width: 144px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.currentValue{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.currentValue p {
+    margin-left: 8px;
+    font-family: "Inter-medium", sans-serif;
+    font-size: 12px;
+}
+
+.currentValue img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.arrow{
+    margin-left: 15px;
+}
+
+.options{
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    flex-flow: column nowrap;
+    top: 40px;
+    background-color: var(--white);
+    border: 1px solid rgb(var(--blue));
+    border-radius: 4px;
+    overflow: hidden;
+    height: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.options div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.options div p{
+    margin-left: 8px;
+    font-family: "Inter-medium", sans-serif;
+    font-size: 12px;
+}
+
+.options div:hover{
+    background-color: var(--e3Gray);
+}
+
+.options div:not(:last-child){
+    border-bottom: 1px solid rgb(var(--blue));
+}
+
+.options div img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.options p{
+    margin: 0;
+}
+
+.open{
+    display: flex;
+    height: 84px;
+}

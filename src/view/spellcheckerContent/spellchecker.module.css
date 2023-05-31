@@ -1,0 +1,54 @@
+.spellChecker{
+
+}
+
+.spellChecker header{
+    border-bottom: 1px solid var(--edGray);
+    padding: 0 59px 11px 118px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spellChecker header > button{
+    width: 106px;
+}
+
+.spellChecker header .restBtns{
+    display: flex;
+    align-items: center;
+}
+
+.spellChecker .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.spellChecker .btn p{
+    font-size: 12px;
+    font-family: "Inter-medium", sans-serif;
+}
+
+.spellChecker .btn:first-child{
+    background-color: var(--edGray);
+}
+
+.spellChecker .btn:first-child p {
+    color: rgb(var(--blue));
+
+}
+
+.spellChecker .btn svg{
+    margin-right: 11px;
+}
+
+.divider{
+    width: 1px;
+    height: 24px;
+    background-color: var(--ccGray);
+}
